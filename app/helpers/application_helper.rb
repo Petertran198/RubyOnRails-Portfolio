@@ -8,8 +8,13 @@ module ApplicationHelper
            "<br>".html_safe + ##you have to wrap it in () and + to concatenate it because it is ruby code and when it renders it will only return one thing
            (link_to "Login", new_user_session_path) 
        end    
+  end
 
-
+  def source_helper(layout_name)
+      if session[:source] 
+        greeting = "Thanks for visting me from #{session[:source]} and you are on #{layout_name} layout"
+        content_tag(:p, greeting,class: "source-greeting")
+     end 
   end
 
 end
