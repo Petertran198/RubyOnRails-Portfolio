@@ -61,5 +61,5 @@ gem 'devise', '~> 4.5'
 gem 'bootstrap', '~> 4.2.1'
 gem 'jquery-rails'
 
-
+gem 'tran_view_tool', git: 'https://github.com/Petertran198/tran_view_tool'
 
