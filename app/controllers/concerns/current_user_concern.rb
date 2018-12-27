@@ -1,8 +1,7 @@
 module CurrentUserConcern
 
   extend ActiveSupport::Concern 
-
-
+  
   def guest_user
     OpenStruct.new(name: "Guest User",
                   first_name: "Guest",
