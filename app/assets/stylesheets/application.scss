@@ -57,7 +57,9 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 2rem;
+  padding: 1.5rem;
+  margin-bottom: -1rem;
+  
 }
 
 
@@ -160,3 +162,22 @@ body {
     width: 55rem;
   }
 }
+/*
+ * Custom Styles
+ */
+
+  .card-body{
+    color: black;
+    text-align: left;
+  }  
+  // For devise registration edit page
+  .starter-template { 
+    margin-top: 4rem;
+    text-align: center;
+    padding: 1rem;
+}
+  .auth-links a {
+    color: #696969;
+    font-size: 1.3rem;
+  }
+  
