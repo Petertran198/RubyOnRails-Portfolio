@@ -170,7 +170,7 @@ body {
     color: black;
     text-align: left;
   }  
-  // For devise registration edit page
+  // FOR DEVISE REGISTRATION EDIT PAGE
   .starter-template { 
     margin-top: 3rem;
     text-align: center;
@@ -187,5 +187,47 @@ body {
     font-size: 1.3rem;
     text-decoration: none;
     font-weight: bold;
+  }
 
+
+  //Register page in devise
+  .register-header{
+   text-shadow:1px 4px 2px #DCDCDC;
+   font-style: italic;
+  }
+  .register-text{
+    font-weight: 100; 
+  }
+
+
+  //FOR DEVISE LOGIN
+  .login-pg > .card{
+    width: 70%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    padding-bottom: 10px
+  }
+
+  .login-pg .login-font{
+    color: black; 
+    padding-top: 5px;
+  }
+   .login-pg .field .login-font {
+    color: #212121; 
+  }
+
+  .login-pg .login-text-field{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .login-font a {
+    color: black;
+  }
+
+  //OVERRIDING BTN BOOTSTRAP CLASSES
+  .btn-primary {
+    width: 50%;
+    min-width: 13rem;
   }
