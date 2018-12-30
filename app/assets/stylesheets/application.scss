@@ -172,12 +172,20 @@ body {
   }  
   // For devise registration edit page
   .starter-template { 
-    margin-top: 4rem;
+    margin-top: 3rem;
     text-align: center;
     padding: 1rem;
 }
   .auth-links a {
     color: #696969;
     font-size: 1.3rem;
+    text-decoration: none;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    }
+  .auth-links a:hover {
+    color: #696969;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: bold;
+
   }
-  
