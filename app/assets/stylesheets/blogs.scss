@@ -41,7 +41,7 @@ h6, .h6 {
 
 .blog-masthead {
   margin-bottom: 3rem;
-  background-color: #428bca;
+  background-color: #0B172A;
   -webkit-box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
           box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
 }
@@ -51,7 +51,7 @@ h6, .h6 {
   position: relative;
   padding: 1rem;
   font-weight: 500;
-  color: #cdddeb;
+  color: #F8F8FF;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -90,11 +90,13 @@ h6, .h6 {
 .blog-title {
   margin-bottom: 0;
   font-size: 2rem;
-  font-weight: normal;
+  font-weight: 400;
+  color: #0B172A;
+  font-family: 'Righteous', cursive;
 }
 .blog-description {
   font-size: 1.1rem;
-  color: #999;
+  color: #463940;
 }
 
 @media (min-width: 40em) {
@@ -147,7 +149,8 @@ h6, .h6 {
 }
 .blog-post-meta {
   margin-bottom: 1.25rem;
-  color: #999;
+  color: #463940;
+  font-style: italic;
 }
 
 
@@ -156,16 +159,50 @@ h6, .h6 {
  */
 
 .blog-footer {
-  padding: 2.5rem 0;
-  color: #999;
+  padding: 2rem 0;
+  color: #0B172A;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #F8F8FF;
   border-top: .05rem solid #e5e5e5;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
 
-.mleft{
-  margin-left: 10px;
+
+
+//Custom 
+
+
+// Blog Links
+li .blog-links{
+    text-decoration: none;
+    font-weight: 200;
+}
+
+li .blog-links:hover {
+   font-weight: bold;
+}
+
+
+// Blog title post
+
+.title a {
+  color: #BC4123; 
+  font-family: 'Roboto', sans-serif;
+  
+
+}
+
+.blog-about-section {
+  color: #0B172A;
+}
+
+// BLOG BODY COLOR 
+.blog-body {
+background: #E0EAFC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
