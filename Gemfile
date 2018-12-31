@@ -63,4 +63,5 @@ gem 'jquery-rails'
 
 gem 'tran_view_tool', git: 'https://github.com/Petertran198/tran_view_tool'
 gem 'petergate', '~> 2.0', '>= 2.0.1'
-
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
