@@ -1,25 +1,36 @@
 
-<h1>Lets Collabrate!</h1>
-
+<h1 class="bounce animated">Lets Collabrate! </h1>
 <hr>
 
 <div class="row">
-  <div class="col-md-6">
-    <h2>You can contact me at..</h2>
-    
-    
-    <p><a href="https://github.com/Petertran198?tab=repositories"> GitHub</a></p>
-
-    <h3>Phone</h3>
-
-    <p><%= number_to_phone "7143983129" %></p>
-
-    <h3>Email</h3>
-
-    <p><a href="mailto:petertran198@gmail.com?subject=PortfolioContact" "email me">Email me</a> </p>
+  
+  <div class="col-md-3 icon">
+    <a href="mailto:petertran198@gmail.com?subject=PortfolioContact" "email me"><%=fa_icon "envelope"%> </a>
+    <p>Email Me</p>
   </div>
-
-  <div class="col-md-6">
+  <div class="col-md-3 icon ">
+   <a href="https://github.com/Petertran198"><%=fa_icon "phone-square"%></a>
+    <p>GitHub</p>
   </div>
+  <div class="col-md-3 icon ">
+   <a href="https://github.com/Petertran198"><%=fa_icon "linkedin-square"%></a>
+    <p>Linkedin</p>
+  </div>
+  <div class="col-md-3 icon ">
+   <%=fa_icon "phone-square"%>
+    <p class="phone-number"> 714-398-3129</p>
+  </div>
+  
 </div>
 
+
+
+
+
+
+
+
+
+
+
+ 
