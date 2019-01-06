@@ -15,25 +15,25 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
+  <body> 
+      <div class="site-wrapper">
+        <div class="site-wrapper-inner">
+          <div class="cover-container">
+            <%= render "shared/application_nav" %>
+     
+            
 
-          <%= render "shared/application_nav" %>
-          
+            <%= yield %>
 
-          <%= yield %>
-
-          
-          
+            
+            
 
 
 
-          <%= source_helper("application") %>
-          <%= render "shared/application_footer" %> <!-- concern for copyright footer -->
-         </div>
+            <%= source_helper("application") %>
+            <%= render "shared/application_footer" %> <!-- concern for copyright footer -->
+           </div>
+        </div>
       </div>
-    </div>
   </body>
 </html>
