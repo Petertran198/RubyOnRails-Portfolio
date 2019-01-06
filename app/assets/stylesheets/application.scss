@@ -35,11 +35,10 @@ body{
   height: 100%;
   margin: 0;
   padding: 0;
-  background: url(https://images.unsplash.com/photo-1543227013-d4bb04c3eec8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat;
-
-
+  background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.1)),  url(https://images.unsplash.com/photo-1543227013-d4bb04c3eec8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat;
   background-size: cover;
 }
+  
 
 body {
   color: #fff;
