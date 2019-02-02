@@ -56,13 +56,17 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.2.4' 
-gem 'devise', '~> 4.5'
+gem 'devise', '~> 4.5' #authentication
 
 gem 'bootstrap', '~> 4.2.1'
 gem 'jquery-rails'
 
 gem 'tran_view_tool', git: 'https://github.com/Petertran198/tran_view_tool'
-gem 'petergate', '~> 2.0', '>= 2.0.1'
+gem 'petergate', '~> 2.0', '>= 2.0.1' #Authorization
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+gem 'carrierwave', '~> 1.0' #simple way to upload files from ruby application
+gem 'mini_magick', '~> 4.6'
+gem 'carrierwave-aws', '~> 1.0', '>= 1.0.2'
+gem 'dotenv-rails', '~> 2.1', '>= 2.1.2'
