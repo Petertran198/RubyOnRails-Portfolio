@@ -1,4 +1,5 @@
-<%= form_with(model: blog, local: true) do |form| %>
+<!-- Form_for(blog) is a form for the blog model--> 
+<%= form_for(blog) do |f| %>
   <% if blog.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(blog.errors.count, "error") %> prohibited this blog from being saved:</h2>
@@ -12,16 +13,14 @@
   <% end %>
 
   <div class="form-group">
-    <%= form.label :title %>
-    <%= form.text_field :title, class: "form-control" %>
+    <%= f.text_field :title, class: 'form-control', placeholder: "Title" %>
   </div>
 
   <div class="form-group">
-    <%= form.label :body %>
-    <%= form.text_area :body, class: "form-control", rows: 15 %>
+    <%= f.text_area :body, class: 'form-control', rows: 15, placeholder: "Body" %>
   </div>
 
   <div class="form-group">
-    <%= form.submit 'Create Blog', class: 'btn btn-sm btn-primary' %>
+    <%= f.submit "Submit", class: 'btn btn-primary' %>
   </div>
 <% end %>
