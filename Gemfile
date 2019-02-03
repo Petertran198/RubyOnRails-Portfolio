@@ -22,18 +22,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
-# Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 4.0'
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
 
-# Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
-# Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
@@ -53,14 +42,12 @@ group :development do
 end
 
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.2.4' 
 gem 'devise', '~> 4.5' #authentication
-
 gem 'bootstrap', '~> 4.2.1'
 gem 'jquery-rails'
-
 gem 'tran_view_tool', git: 'https://github.com/Petertran198/tran_view_tool'
 gem 'petergate', '~> 2.0', '>= 2.0.1' #Authorization
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
@@ -71,3 +58,5 @@ gem 'mini_magick', '~> 4.6'
 gem 'carrierwave-aws', '~> 1.0', '>= 1.0.2'
 gem 'dotenv-rails', '~> 2.1', '>= 2.1.2'
 gem 'cocoon', '~> 1.2', '>= 1.2.9' # styling gem for nested forms using jquery
+gem 'gritter', '~> 1.2' # Jquery plugin for "growl-like" notification
+
