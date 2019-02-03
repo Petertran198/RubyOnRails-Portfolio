@@ -22,4 +22,14 @@ module ApplicationHelper
 
 
 
+
+  def alerts
+    alert =(flash[:alert]|| flash[:error]|| flash[:notice])
+
+    if alert #instead of hard coding flash helper, I'm passing in alert after add_gritter()
+       js add_gritter(alert, sticky: false, time: 1500 ) 
+    end
+  end
+  
+
 end

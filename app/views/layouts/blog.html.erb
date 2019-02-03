@@ -26,15 +26,16 @@
 
         <%= yield %>
 
-        <!-- start of sidebar -->
+
+ 
         <%= render 'shared/blog_sidebar' %>
-        <!-- end of sidebar -->
+
       </div>
         <hr>
-        <!-- start of footer -->
-        <%= render 'shared/application_footer' %>
-        <!-- end of footer -->
 
+        <%= render 'shared/application_footer' %>
+
+        <%= alerts %>
         <%= source_helper("blog") %>
     </div>
   </body>
