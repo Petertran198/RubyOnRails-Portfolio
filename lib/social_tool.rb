@@ -9,7 +9,7 @@ module SocialTool
     end
 
       #This is searchign for tweets with the #
-    client.search("#webdevelopment #programming ", result_type: 'recent').take(6).collect do |tweet|
+    client.search("#webdevelopment ", result_type: 'recent').take(8).collect do |tweet|
       "#{tweet.user.screen_name}: #{tweet.text}"
     end
    end 

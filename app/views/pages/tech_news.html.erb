@@ -1,11 +1,11 @@
   <div class="inner cover">
-    <h1 class="cover-heading">What's Happening on The Web ?</h1>
+    <h1 class="cover-heading">Things Programmers Are Talking About </h1>
     <div class="row">
-      <% @tweets.each do |t| %>
+      <% @tweets.each do |tweet| %>
         <div class="col-md-6">
           <div class="tech-news">
             <div class="card">
-              <%= t %>
+              <%= twitter_parser tweet %>
             </div>
           </div>
         </div>
