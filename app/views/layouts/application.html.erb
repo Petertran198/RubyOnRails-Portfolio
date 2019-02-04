@@ -16,11 +16,20 @@
   </head>
 
   <body> 
+    
       <div class="site-wrapper">
         <div class="site-wrapper-inner">
           <div class="cover-container">
-            <div id="background"></div>
-
+            <%= video_tag(  
+                'background.mp4',
+                id: 'background',
+                autoplay: true,
+                loop: true,
+                muted: true,
+                poster: 'background2.png'
+            
+              )
+              %>
             <%= render "shared/application_nav" %>
      
             
