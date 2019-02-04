@@ -153,6 +153,13 @@ body {
 }
 
 
+
+
+
+
+
+
+
 /*
  * Affix and center
  */
@@ -386,3 +393,24 @@ div .border-left {
   margin-left: 15px;
   margin-right: 15px;
 }
+
+/*TECH NEWS PAGE */
+.tech-news{
+  color: #373D3F;
+  margin: 2%;
+}
+
+.tech-news a{
+  color: #5286c8;
+
+}
+.tech-news >.card{
+  padding: 5px;
+  opacity: 0.75;
+  height: 130px;
+
+}
+
+
+
+

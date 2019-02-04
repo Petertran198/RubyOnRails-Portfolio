@@ -9,8 +9,8 @@ module SocialTool
     end
 
       #This is searchign for tweets with the #
-    client.search("#webdevelopment ", result_type: 'recent').take(8).collect do |tweet|
-      "#{tweet.user.screen_name}: #{tweet.text}"
+    client.search("#programming" , result_type: 'recent',lang: "en").take(6).collect do |tweet|
+      "@#{tweet.user.screen_name} said: #{tweet.text} on #{tweet.created_at.strftime('%-m/%d/%Y')}"
     end
    end 
 end
