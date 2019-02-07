@@ -13,6 +13,8 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
+  has_many :comments, dependent: :destroy #dependent destroy is saying if a user deletes their account all their comments get deleted as well
+
   validates_presence_of :name      
   def first_name
     self.name.split.first
