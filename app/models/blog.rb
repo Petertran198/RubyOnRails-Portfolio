@@ -6,7 +6,7 @@ class Blog < ApplicationRecord
   validates_presence_of :title, :body
 
   belongs_to :topic, optional: true 
-
+  has_many :comments, dependent: :destroy #dependent destroy is saying if a blog gets deleted their comments get deleted as well
 
   def self.special_blogs
     all

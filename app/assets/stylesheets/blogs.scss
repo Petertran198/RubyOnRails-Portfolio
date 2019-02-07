@@ -17,20 +17,7 @@ body {
   color: #000;
 }
 
-#background{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.1)),  image-url('background.jpeg') no-repeat;
-  background-size: cover;
-}
+
   
 h1, .h1,
 h2, .h2,
@@ -234,9 +221,7 @@ li .blog-links:hover {
 // BLOG BODY COLOR 
 .blog-body {
   
-  background: #E0EAFC;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top right, #99dcf5, #8ad7f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-image: linear-gradient(to right, #a3bded 0%, #6991c7 100%);
 
 }
 

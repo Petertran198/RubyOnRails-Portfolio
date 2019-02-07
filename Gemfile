@@ -60,3 +60,5 @@ gem 'dotenv-rails', '~> 2.1', '>= 2.1.2'
 gem 'cocoon', '~> 1.2', '>= 1.2.9' # styling gem for nested forms using jquery
 gem 'gritter', '~> 1.2' # Jquery plugin for "growl-like" notification
 gem 'twitter', '~> 6.1' # twitter api
+gem 'redis', '~> 3.3', '>= 3.3.3' #leverage for data storage for action cable 
+
