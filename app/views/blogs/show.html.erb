@@ -13,8 +13,10 @@
   
 
 
- 
- <%= render @blog.comments %><!-- this will look for a partial in comments view folder called _comment because of rails convention-->
+ <div id="comments" data-blog-id="<%= @blog.id %>">
+    <%= render @blog.comments %><!-- this will look for a partial in comments view folder called _comment because of rails convention for collections-->
+ </div>
+
   
 
 
