@@ -1,6 +1,6 @@
 <!-- if it is a guest user tell them to log in -->
   <% if current_user.is_a?(GuestUser) %>
-    <p style="font-style: italic; color: #696969;">(Please Log In Or Sign Up To Comment) </p>
+    <p class="blockquote text-muted">(Please Log In Or Sign Up To Comment) </p>
 
   <% end %>
 

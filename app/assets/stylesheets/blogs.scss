@@ -103,7 +103,7 @@ h6, .h6 {
 .blog-header {
   padding-bottom: 1.25rem;
   margin-bottom: 2rem;
-  border-bottom: .05rem solid #eee;
+
 }
 .blog-title {
   margin-bottom: 0;
@@ -224,4 +224,12 @@ li .blog-links:hover {
 background-image: linear-gradient(to right, #a3bded 0%, #6991c7 100%);
 
 }
+
+
+//COMMENT PART
+
+.comment-card >.card{
+  margin-top: 13px;
+}
+
 
