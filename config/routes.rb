@@ -17,5 +17,8 @@ Rails.application.routes.draw do
     end  
   end  
   
+  mount ActionCable.server => '/cable' #this create the web socket connection
+
   root to: 'pages#home'
+
 end
