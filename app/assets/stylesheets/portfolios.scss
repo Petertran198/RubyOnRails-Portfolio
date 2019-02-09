@@ -23,7 +23,10 @@
 }
 
 .jumbotron-heading {
-  font-weight: 300;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: black;
+  font-family: 'Roboto', sans-serif;
 }
 
 .jumbotron .container {
@@ -33,6 +36,7 @@
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  
 }
 
 footer p {
@@ -44,6 +48,10 @@ footer p {
 /*CUSTOM STYLES */
 .portfolio-container{
   padding-top: 30px;
+}
+
+.section-bg{
+  background-image: linear-gradient(to right, #e6e9f0 0%, #eef1f5 100%);
 }
 
 

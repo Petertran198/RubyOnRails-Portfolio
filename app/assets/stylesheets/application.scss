@@ -55,6 +55,7 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -90,7 +91,10 @@ body {
 .masthead {
   margin-bottom: 2rem;
 }
+.cover-heading{
+    font-family: 'Roboto', sans-serif;
 
+}
 .masthead-brand {
   margin-bottom: 0;
 }
@@ -245,6 +249,11 @@ body {
     float: none;
     margin-bottom: 10px;
     padding-bottom: 10px
+
+  }
+  .card{
+  background: linear-gradient(to right, #e6e9f0 20%, #eef1f5 100%); 
+   opacity: 0.92;
   }
 
   .login-pg .login-font{
@@ -272,20 +281,49 @@ body {
 
 
 // CONTACT PAGE 
+.about-card-container > .card{
+background: linear-gradient(to right, #e6e9f0 20%, #eef1f5 100%); 
+   opacity: 0.9;
+  filter: alpha(opacity=90);
+  text-align: left;
+  padding: 1.5rem;
+}
+
+
 .icon {
   font-size: 3em;
+  color: #191919;
  }
-.icon-hover{
-  color:black;
-  font-size: 3em;
 
 
 
+
+/* Pulse */
+@keyframes pulse {
+  25% {
+    transform: scale(1.2);
+  }
+
+  75% {
+    transform: scale(.9);
+    color: #202020;
+  }
 }
-.icon-hover:hover{
-  color:white;
-  font-size: 3em;
+
+.pulse {
+  display: inline-block;
+
+
+  &:hover {
+    animation-name: pulse;
+    animation-duration: 1.7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
 }
+
+
+
 
 
 .phone-number{
@@ -308,8 +346,8 @@ body {
 
 
 .animated {
-  -webkit-animation-duration: 1.7s;
-  animation-duration: 1.7s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-timing-function: linear;

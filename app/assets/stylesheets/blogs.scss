@@ -109,7 +109,7 @@ h6, .h6 {
   margin-bottom: 0;
   font-size: 2rem;
   font-weight: 400;
-  color: #fff;
+  color: black;
   font-family: 'Righteous', cursive;
 }
 .blog-description {
@@ -123,6 +123,9 @@ h6, .h6 {
   }
 }
 
+#black{
+  color: black !important;
+}
 
 /*
  * Main column and sidebar layout
@@ -167,7 +170,7 @@ h6, .h6 {
 }
 .blog-post-meta {
   margin-bottom: 1.25rem;
-  color: #213561;
+  color: #4C4C4C;
   font-style: italic;
 }
 
@@ -197,7 +200,7 @@ li .blog-links{
     text-decoration: none;
     font-weight: 200;
     font-size: 1.2em;
-    color: #fafbfd;
+    color: black;
 }
 
 li .blog-links:hover {
@@ -208,21 +211,20 @@ li .blog-links:hover {
 // Blog title post
 
 .title a {
-  color: #1d2e54; 
+  color: #323232; 
   font-family: 'Roboto', sans-serif;
   
 
 }
 
 .blog-about-section {
-  color: #0B172A;
+  color: black;
 }
 
 // BLOG BODY COLOR 
 .blog-body {
   
-background-image: linear-gradient(to right, #a3bded 0%, #6991c7 100%);
-
+background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
 
 
