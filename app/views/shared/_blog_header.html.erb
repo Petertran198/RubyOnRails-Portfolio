@@ -3,6 +3,7 @@
     <h1 class="blog-title">Inside My Head...</h1>
     <p class="lead blog-description">My observation as a web developer for the future of technology and development.</p>
     <span><%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %></span>
-    <label><%= link_to "Topics", topics_path %></label>
+    <h2 class="btn btn-outline-light"><%= link_to "Topics", topics_path %></h2>
+
   </div>
 </div>

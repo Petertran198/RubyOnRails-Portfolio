@@ -1,6 +1,8 @@
 @import "bootstrap";
 @import "gritter";
-
+body{
+  font-family: 'Roboto', sans-serif;
+}
 :root {
   --jumbotron-padding-y: 3rem;
 }
