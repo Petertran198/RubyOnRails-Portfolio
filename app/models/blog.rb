@@ -1,5 +1,5 @@
 class Blog < ApplicationRecord
-  enum status: { Draft: 0, Published: 1 }
+  enum status: { draft: 0, published: 1 }
   extend FriendlyId
   friendly_id :title, use: :slugged
 
@@ -10,5 +10,9 @@ class Blog < ApplicationRecord
 
   def self.special_blogs
     all
+  end
+
+  def self.recent
+    order("updated_at DESC")
   end
 end

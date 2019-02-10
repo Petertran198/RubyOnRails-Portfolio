@@ -1,20 +1,18 @@
   
   <div class="inner cover">
-    <h2 class="cover-headin mb-3">Tweet like a Developer    <%= link_to "New Tweets", "", class: "btn btn-outline-light" %></h2>
+    <h2 class="cover-headin mb-2 mt-2">Tweet like a Developer    <%= link_to "New Tweets", "", class: "btn btn-outline-light" %></h2>
     
-    
-    <div class="row">
-      <% @tweets.each do |tweet| %>
-        <div class="col-md-6">
-          <div class="tech-news">
-            <div class="card">
-              <%= twitter_parser tweet %>
+   
+      <div class="row">
+        <% @tweets.each do |tweet| %>
+          <div class="col-md-6">
+            <div class="tech-news">
+              <div class="card">
+                <%= twitter_parser tweet %>
+              </div>
             </div>
           </div>
-        </div>
-      <% end %>      
+        <% end %>      
+      </div>
     </div>
-  </div>
-  
-       
 
