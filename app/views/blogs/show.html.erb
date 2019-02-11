@@ -8,7 +8,8 @@
   <%= link_to 'Edit', edit_blog_path(@blog) if logged_in?(:site_admin) %>
 
   <p>
-    <%= @blog.body %>
+    <!-- This is calling the markdown method to parse over all the text in @blog.body-->
+    <%= markdown(@blog.body) %>
   </p>
 
   <%= render 'comments/comment_form' %>
