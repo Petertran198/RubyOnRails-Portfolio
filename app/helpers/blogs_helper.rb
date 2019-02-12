@@ -26,4 +26,14 @@ module BlogsHelper
     markdown_to_html.render(text).html_safe
   end
 
+
+  ## This helper is passing in the color style to the admin-action partial 
+  def blog_status_color(blog)
+    if blog.draft?
+      'color: #8B0000'
+    else
+      'color: #191970'
+    end 
+  end
+
 end
