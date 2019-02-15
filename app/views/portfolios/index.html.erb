@@ -1,11 +1,13 @@
-<div class="album py-5 bg-light">
+<div class="album py-2 bg-light">
   <div class="container">
+    <center class ="lead"> <%= source_helper("alert alert-primary") %></center>
     <div class="row <%= "sortable" if logged_in?(:site_admin)%>">
 
 
     <%= render partial: 'portfolio_item', collection: @portfolio_items%>
 
     </div>
+
   </div>  
 </div>
 
