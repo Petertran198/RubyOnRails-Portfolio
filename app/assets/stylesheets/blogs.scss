@@ -17,7 +17,9 @@ body {
   color: #000;
 }
 
-
+.navbar{
+  line-height: 50%;
+}
   
 h1, .h1,
 h2, .h2,
@@ -93,6 +95,9 @@ h6, .h6 {
   border-right: .3rem solid transparent;
   border-bottom: .3rem solid;
   border-left: .3rem solid transparent;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #d5d5d5;
 }
 
 

@@ -1,18 +1,23 @@
-<div class="blog-masthead">
-
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
   <div class="container">
-    <nav class="nav blog-nav">
-       <%= link_to "Home", root_path, class: "nav-link" %>                     
-       <%= link_to "About", about_me_path, class: "nav-link" %>                      
-       <%= link_to "Contact", contact_path, class: "nav-link" %>                     
-       <%= link_to "Blogs", blogs_path, class: "nav-link" %>                     
-       <%= link_to "Portfolio", portfolios_path, class: "nav-link"  %>
-       <%= link_to "Tweets",  tech_news_path, class: 'nav-link' %>
-       <%= login_helper 'nav-link' %>  
-    </nav>
-  </div>
-</div>
+     <%= link_to "Peter Tran", root_path, class: "navbar-brand", style: "  text-decoration: none;"%>        
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
+      <ul class="navbar-nav ml-auto">
+           <%= link_to "Home", root_path, class: "nav-link" %>                     
+           <%= link_to "About", about_me_path, class: "nav-link" %>
+           <%= link_to "Contact", contact_path, class: "nav-link" %>
+           <%= link_to "Tweets",  tech_news_path, class: 'nav-link' %>
+           <%= link_to "Blogs", blogs_path, class: "nav-link" %>                     
+           <%= link_to "Portfolio", portfolios_path, class: "nav-link"  %>
+           <%= login_helper 'nav-link' %>  
+      </ul>
+    </div>
+  </div>
+</nav>
 
 
 

@@ -1,14 +1,16 @@
-<div class="masthead clearfix">
+
+<div class="masthead clearfix ">
   <div class="inner">
-    <h3 class="masthead-brand ">Peter Tran </h3>
-    <nav class="nav nav-masthead app-nav">
+    <h3 class="masthead-brand "><%= link_to "Peter Tran", root_path, style: "text-decoration: none;" %>
+ </h3>
+    <nav class="nav nav-masthead app-nav mt-1">
 
       <%= link_to "Home", root_path, class: 'nav-link' %>
       <%= link_to "About Me", about_me_path, class: 'nav-link' %>
       <%= link_to "Contact", contact_path, class: 'nav-link' %>
+      <%= link_to "Tweets",  tech_news_path, class: 'nav-link' %>
       <%= link_to "Blog", blogs_path, class: 'nav-link' %>
       <%= link_to "Portfolio", portfolios_path, class: 'nav-link' %>
-      <%= link_to "Tweets",  tech_news_path, class: 'nav-link' %>
       <%= login_helper 'nav-link' %>
     </nav>
   </div>
