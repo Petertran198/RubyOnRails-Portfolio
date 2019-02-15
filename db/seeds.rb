@@ -1,3 +1,23 @@
+User.create!(
+  email: "petertran98@yahoo.com",
+  password: "p123456",
+  password_confirmation: "p123456",
+  name: "Peter Tran",
+  roles: "site_admin"
+)
+
+puts "1 Admin user created"
+
+User.create!(
+  email: "petertran198@gmail.com",
+  password: "p123456",
+  password_confirmation: "p123456",
+  name: "Regular User",
+)
+
+puts "1 regular user created"
+
+
 3.times do |topic|
   Topic.create!(
     title: "Topic #{topic}"
@@ -46,13 +66,14 @@ end
 end
 
 puts "9 portfolio items created"
+
 3.times do |technology|
   Portfolio.last.technologies.create!(
-    name: "Technology #{technology}")
+    name: "Technology #{technology}"
+  )
 end
 
-puts "3 technologies created"  
-
+puts "3 technologies created"
 
 
 
