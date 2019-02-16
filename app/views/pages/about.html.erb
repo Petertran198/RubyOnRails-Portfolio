@@ -69,10 +69,10 @@
               <div class="card card-body about-card-bg">
                 <% @skills.each do |skill| %>
                   <div class="row">
-                    <div class="col-md-2">
+                    <div class="col-md-4">
                       <h5 class="lead"><%= skill.title %></h5>              
                     </div><!--end of first col-->
-                    <div class="col-md-9">
+                    <div class="col-md-8">
                       <div class="progress">
                         <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                         aria-valuenow="<%= skill.percent_utilized %>" aria-valuemin="0" aria-valuemax="100" style="width: <%= skill.percent_utilized %>%">
