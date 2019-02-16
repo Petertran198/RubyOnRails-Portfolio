@@ -91,4 +91,8 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+  #Bottom is whitelisting the urls action cable can speak to witch in this case is our website
+  config.action_cable.allowed_request_origins = ['https://peter-tran-portfolio.herokuapp.com', 'http://peter-tran-portfolio.herokuapp.com']
+  #This is telling the production file where to route to websocket connection too 
+  config.action_cable.url = "wss://peter-tran-portfolio.herokuapp.com/cable"
 end
