@@ -1,10 +1,4 @@
-User.create!(
-  email: "petertran98@yahoo.com",
-  password: "p123456",
-  password_confirmation: "p123456",
-  name: "Peter Tran",
-  roles: "site_admin"
-)
+
 
 puts "1 Admin user created"
 
