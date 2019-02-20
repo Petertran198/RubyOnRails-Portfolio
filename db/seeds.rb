@@ -1,6 +1,6 @@
 
 
-puts "1 Admin user created"
+
 
 User.create!(
   email: "petertran198@gmail.com",
