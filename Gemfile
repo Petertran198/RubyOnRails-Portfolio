@@ -63,4 +63,4 @@ gem 'twitter', '~> 6.1' # twitter api
 gem 'redis', '~> 3.3', '>= 3.3.3' #leverage for data storage for action cable 
 gem 'redcarpet', '~> 3.4' #gem to intergrate markdown syntax and style 
 gem 'coderay', '~> 1.1', '>= 1.1.1' #syntax highlighting for languages
-
+gem 'animate-rails', '~> 1.0', '>= 1.0.10'
