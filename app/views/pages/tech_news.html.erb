@@ -1,5 +1,5 @@
   
-  <div class="inner cover">
+  <div class="inner cover ">
     <h2 class="cover-headin mb-2 mt-2">Tweet like a Developer </h2>  <%= link_to "New Tweets", "", class: "btn btn-outline-light" %>
     
    
@@ -7,8 +7,10 @@
         <% @tweets.each do |tweet| %>
           <div class="col-md-6">
             <div class="tech-news">
-              <div class="card">
+              <div class="card ">
+                <div class="animated rotateIn">
                 <%= twitter_parser tweet %>
+                </div>
               </div>
             </div>
           </div>

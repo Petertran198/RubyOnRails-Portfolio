@@ -1,6 +1,6 @@
-<div class="starter-template">
+<div class="starter-template ">
   <div class="card">
-    <div class="card-body">
+    <div class="card-body animated rotateIn">
       <center>
         <h2 class="cover-heading"><strong>Sign Up</strong></h2>
         <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
@@ -42,3 +42,7 @@
     </div>      
   </div>
 </div>
+<br>
+<p class="white">
+  <%= render "shared/application_footer" %> <!-- concern for copyright footer -->
+</p> 
