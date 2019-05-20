@@ -1,21 +1,22 @@
-  
-  <div class="inner cover ">
-    <h2 class="cover-headin mb-2 mt-2">Tweet like a Developer </h2>  <%= link_to "New Tweets", "", class: "btn btn-outline-light" %>
-    
-   
-      <div class="row">
-        <% @tweets.each do |tweet| %>
-          <div class="col-md-6">
-            <div class="tech-news">
-              <div class="card ">
-                <!-- animated rotateIn-->
-                <div class="">
-                <%= twitter_parser tweet %>
+
+    <div class="inner cover " onclick="tweetReload()">
+      <h3 class="cover-headin">The Latest Tweets <br>By Developers </h3> 
+      
+     
+        <div class="row">
+          <% @tweets.each do |tweet| %>
+            <div class="col-md-6">
+              <div class="tech-news click-tweet">
+                <div class="card ">
+                  <!-- animated rotateIn-->
+                  <div class="">
+                  <%= twitter_parser tweet %>
+                  <br>
+
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        <% end %>      
+          <% end %>      
+        </div>
       </div>
-    </div>
-
