@@ -47,7 +47,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.2.4' 
 gem 'devise', '~> 4.5' #authentication
 gem 'bootstrap', '~> 4.2.1'
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'tran_view_tool', git: 'https://github.com/Petertran198/tran_view_tool'
 gem 'petergate', '~> 2.0', '>= 2.0.1' #Authorization
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
