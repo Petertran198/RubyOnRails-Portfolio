@@ -19,6 +19,12 @@ body{
     padding-bottom: calc(var(--jumbotron-padding-y) * 2);
   }
 }
+@media(max-width: 600px) {
+  a.nav-link:last-of-type {
+    padding-top: 0px;
+    margin-top: -15px;
+  }
+}
 
 .jumbotron p:last-child {
   margin-bottom: 0;
@@ -48,6 +54,7 @@ footer p {
 
 
 /*CUSTOM STYLES */
+
 .portfolio-container{
   padding-top: 30px;
 }
@@ -56,4 +63,15 @@ footer p {
   background-image: linear-gradient(to right, #e6e9f0 0%, #eef1f5 100%);
 }
 
+.portfolio-logo{
+  display: flex;
+  justify-content: center;
+  margin: auto;
 
+}
+// To make logo responsive for smaller width display
+@media(max-width: 600px){
+  .portfolio-logo{
+    width: 100%;
+  }
+}

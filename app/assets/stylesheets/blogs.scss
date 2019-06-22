@@ -11,6 +11,11 @@
     font-size: 18px;
   }
 }
+@media(max-width: 600px){
+  a.nav-link:last-of-type {
+      padding-top: .5rem;
+  }
+}
 
 body {
  font-family: 'Roboto', sans-serif;
@@ -73,6 +78,7 @@ h6, .h6 {
   font-weight: 500;
   color: #F8F8FF;
 }
+
 .nav-link:hover,
 .nav-link:focus {
   color: #fff;
@@ -130,13 +136,13 @@ h6, .h6 {
 }
 .blog-title {
   margin-bottom: 0;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 400;
   color: white;
   font-family: 'Righteous', cursive;
 }
 .blog-description {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: #F8F8FF;
 }
 

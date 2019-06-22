@@ -56,7 +56,7 @@ body{
 
 
 body {
-
+  min-height: 100% !important;
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
@@ -455,6 +455,7 @@ background: linear-gradient(to right, #e6e9f0 20%, #eef1f5 100%);
 .app-card-container{
   color: #040406;
   text-align: left;
+
 }
 
 
