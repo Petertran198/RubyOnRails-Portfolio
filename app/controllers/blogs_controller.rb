@@ -9,7 +9,7 @@ class BlogsController < ApplicationController
   # GET /blogs.json
   def index
     if logged_in?(:site_admin)
-      @blogs = Blog.recent.page(params[:page]).per(3)
+      @blogs = Truncate(Blog.recent.page(params[:page]).per(3))
     else
        @blogs = Blog.published.recent.page(params[:page]).per(3)
     end   
@@ -103,4 +103,8 @@ class BlogsController < ApplicationController
     def set_sidebar_topics
       @side_bar_topics = Topic.with_blogs
     end
+
+
+
+
 end
