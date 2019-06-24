@@ -5,6 +5,6 @@
   <!-- admin action of delete edit and toggle status -->
   <%= render partial: 'blogs/admin-actions', locals: {blog: blog} %>
   <p>
-    <p><%= (markdown blog.body.truncate(600)) %></p>
+    <p><%= (markdown blog.body.truncate(700, omission: '... (continued)'))%></p>
   </p>
 </div>
