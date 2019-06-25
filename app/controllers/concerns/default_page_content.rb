@@ -5,8 +5,8 @@ module DefaultPageContent
   end
 
   def set_page_defaults
-    @page_title = "Peter Tran"  
-    @seo_keywords = "Ruby On Rails, Web Developer, JavaScript,Hiring,For hire, web design,responsive web design,website creator,graphic design"
+    @page_title = "Peter Tran, Web Developer"  
+    @seo_keywords = "Ruby On Rails, Web Developer, JavaScript,React Js, Hiring,For hire, web design,responsive web design,website creator,graphic design"
   end
 
 end

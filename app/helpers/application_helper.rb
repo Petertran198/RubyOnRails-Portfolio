@@ -16,7 +16,7 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    TranViewTool::Renderer.copyright('Peter Tran','All Rights Reserved')
+    TranViewTool::Renderer.copyright('Peter Tran | Web Developer','  All Rights Reserved')
   end
 
 
