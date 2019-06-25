@@ -1,7 +1,6 @@
 module ApplicationCable
   class Connection < ActionCable::Connection::Base
-    
-  identified_by :current_user
+    identified_by :current_user
 
     def guest_user
       guest = GuestUser.new
@@ -26,6 +25,5 @@ module ApplicationCable
         verified_user
       end
     end
-
   end
 end
