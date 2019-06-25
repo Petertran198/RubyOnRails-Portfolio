@@ -5,6 +5,6 @@
   <!-- admin action of delete edit and toggle status -->
   <%= render partial: 'blogs/admin-actions', locals: {blog: blog} %>
   <p>
-    <p><%= (markdown blog.body.truncate(700))%></p>
+    <p> <%= truncate(markdown(blog.body), length: 600, escape: false) %> </p>
   </p>
 </div>
