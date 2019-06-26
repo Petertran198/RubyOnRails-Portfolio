@@ -26,16 +26,7 @@ body {
   line-height: 50%;
 }
   
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  color: #333;
-}
+
 
 
 /*
@@ -192,14 +183,24 @@ h6, .h6 {
 
 .blog-post {
   margin-bottom: 4rem;
+  border-left: 10px solid #6f7477;
+  padding-left: 25px;
+  border-radius: 18px;
 }
 .blog-post-title {
   margin-bottom: .25rem;
   font-size: 2.2 rem;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.2);
-
-
 }
+  .truncate-link{
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
 .blog-post-meta {
   margin-bottom: 1.25rem;
   color: #191919;
