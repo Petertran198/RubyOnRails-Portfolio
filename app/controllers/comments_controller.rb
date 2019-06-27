@@ -7,6 +7,7 @@ class CommentsController < ApplicationController
         format.html { redirect_to blogs_path }
       else
         format.html { redirect_to blogs_path }
+      end
     end
   end
 
