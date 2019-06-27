@@ -4,9 +4,9 @@ class CommentsController < ApplicationController
     @comment = current_user.comments.new(comment_params)
     respond_to do |format|
       if @comment.save!
-        format.html { redirect_to blogs_path }
+        format.html { redirect_to blog_path(params[:blog_id]) }
       else
-        format.html { redirect_to root_path }
+        format.html { redirect_to blogs_path }
       end
     end
   end
