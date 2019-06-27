@@ -6,7 +6,7 @@ class CommentsController < ApplicationController
       if @comment.save
         format.html { redirect_to blogs_path }
       else
-        format.html { redirect_to blogs_path }
+        format.html { redirect_to root_path }
       end
     end
   end
