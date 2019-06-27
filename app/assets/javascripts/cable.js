@@ -5,9 +5,11 @@
 //= require_self
 //= require_tree ./channels
 
+/* ACRemove
 (function() {
   this.App || (this.App = {});
 
   App.cable = ActionCable.createConsumer();
 
 }).call(this);
+*/
