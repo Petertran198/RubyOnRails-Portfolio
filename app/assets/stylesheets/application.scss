@@ -517,3 +517,16 @@ div .border-left {
   color: black ;
 }
 
+
+/* Media query for nav bar for home/about/contact/tech */ 
+@media (min-width: 320px) and (max-width: 480px) {
+  .masthead-brand {
+    float: clear;
+  }
+  .nav-masthead{
+    float: clear;
+  }
+  a.nav-link{
+    margin: 5px !important;
+  }
+}
