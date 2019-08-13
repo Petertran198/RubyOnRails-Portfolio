@@ -59,11 +59,13 @@ body {
   min-height: 100% !important;
   color: #fff;
   text-align: center;
-  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
-
 }
-/* Button */
 
+/* Button */
+.btn-outline-primary-light {
+  color: lighten(#007bff, 20%);
+  border-color: lighten(#007bff, 20%);
+}
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
