@@ -17,6 +17,10 @@ Rails.application.routes.draw do
       get :toggle_status
     end  
   end  
+
+  # Google Search Console
+  get 'google[4c4b76a6b63f683d].html' => 'static#google[4c4b76a6b63f683d]'
+
   
   # ACRemove mount ActionCable.server => '/cable' #this create the web-socket connection
 
