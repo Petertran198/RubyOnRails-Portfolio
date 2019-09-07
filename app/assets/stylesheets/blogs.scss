@@ -241,8 +241,10 @@ body {
 //Custom 
 
 //img in blog 
-.blogcrumb p img {
-  width: 100%;
+@media (min-width: 320px) and (max-width: 480px) {
+   p img {
+    width: 100%;
+  }
 }
 // Blog Links
 li .blog-links{
