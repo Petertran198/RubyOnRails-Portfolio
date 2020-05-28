@@ -51,7 +51,7 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'tran_view_tool', git: 'https://github.com/Petertran198/tran_view_tool'
 gem 'petergate', '~> 2.0', '>= 2.0.1' #Authorization
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
-gem 'kaminari', '~> 1.1', '>= 1.1.1'
+gem 'kaminari', '~> 1.2'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem 'carrierwave', '~> 1.0' #simple way to upload files from ruby application
 gem 'mini_magick', '~> 4.6'
