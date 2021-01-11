@@ -61,6 +61,6 @@ gem 'cocoon', '~> 1.2', '>= 1.2.9' # styling gem for nested forms using jquery
 gem 'gritter', '~> 1.2' # Jquery plugin for "growl-like" notification
 gem 'twitter', '~> 6.1' # twitter api
 gem 'redis', '~> 3.3', '>= 3.3.3' #leverage for data storage for action cable 
-gem 'redcarpet', '~> 3.4' #gem to intergrate markdown syntax and style 
+gem 'redcarpet', '~> 3.5' #gem to intergrate markdown syntax and style 
 gem 'coderay', '~> 1.1', '>= 1.1.1' #syntax highlighting for languages
 gem 'animate-rails', '~> 1.0', '>= 1.0.10'
